@@ -1,0 +1,17 @@
+body {
+  background-color: antiquewhite;
+}
+
+.area {
+  margin-top: 200px;
+  margin-left: 480px;
+}
+.area .bt {
+  margin-top: 10px;
+}
+.area .restbtn {
+  margin-left: 130px;
+}
+.area input {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
