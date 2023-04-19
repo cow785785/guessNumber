@@ -1,9 +1,9 @@
 let answer = Math.floor(Math.random() * 100);
-const input = document.getElementById("num");
-const button = document.getElementById("btn");
-const textarea = document.getElementById("textarea");
-const restartButton = document.getElementById("restart");
-let range = [1, 100];
+const input = document.getElementById("num");//輸入值的地方
+const button = document.getElementById("btn");//按鈕
+const textarea = document.getElementById("textarea");//顯示文字的地方
+const restartButton = document.getElementById("restart");//重新開始按鈕
+let range = [1, 100];//用陣列顯示範圍
 let guessedNumbers = [];
 // console.log(answer);//直接看答案
 button.addEventListener("click", function () {
